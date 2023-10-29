@@ -18,8 +18,8 @@ const LinShat = () => {
 
     return (
         <div>
-            <LineChart width={500} height={400}>
-               
+            <LineChart width={500} height={400} data={Mathmarks}>
+               <Line dataKey={Math} stroke='red'></Line>
             </LineChart>
         </div>
     );
